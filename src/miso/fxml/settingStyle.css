@@ -1,0 +1,85 @@
+.background {
+   -fx-background-color: transparent;
+} 
+
+.text-field {
+    -fx-font-style: 18.0px Consolas, bold;
+}
+#pane{
+	-fx-background-color: white;
+    -fx-background-radius:64.0px;
+	-fx-border-radius:64.0px;
+	-fx-border-width:4.0px;
+  	-fx-border-color: #e2e2e2;
+}
+.button {
+    -fx-padding: 5.0 10.0 5.0 10.0;
+    -fx-background-radius:64.0px;
+	-fx-border-radius:64.0px;
+   	-fx-border-width:4.0px;
+  	-fx-border-color: #e2e2e2;
+    -fx-background-color: white;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+	-fx-border-color: #000000;
+}
+
+.button:pressed{
+	-fx-border-color: #000000;
+}
+.button:focused {
+   -fx-background-color: white;
+    -fx-border-color: white, white;
+    -fx-border-width: 1.0, 1.0;
+    -fx-border-style: solid, segments(1.0, 1.0);
+    -fx-border-radius: 0.0, 0.0;
+    -fx-border-insets: 1.0 1.0 1.0 1.0, 0.0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+   -fx-background-color: white;
+    -fx-text-fill: #ffffff;
+}
+
+.animated-option-button {
+
+   -fx-pref-width:32.0px;
+   -fx-background-color:#44B449;
+   -fx-background-radius:32.0px;
+   -fx-pref-height:32.0px;
+   -fx-text-fill:white;
+   -fx-border-color:WHITE;
+   -fx-border-radius:32.0px;
+   -fx-border-width:4.0px;
+}
+
+
+.animated-option-sub-button {
+   -fx-background-color:#43609C;
+}
+
+.animated-option-sub-button2{
+   -fx-background-color:rgb(203.0,104.0,96.0);
+}
+
+.animated-option-sub-button3{
+   -fx-background-color:#3a9b4b;
+}
+#ocrPane{
+   -fx-background-color: white;
+    -fx-background-radius:64.0px;
+   -fx-border-radius:64.0px;
+   -fx-border-width:4.0px;
+     -fx-border-color: #e2e2e2;
+}

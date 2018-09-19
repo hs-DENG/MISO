@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/geocoder-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/jfoenix.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/system-hook-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/fontbox-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/ghost4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jai-imageio-core-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jbig2-imageio-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jboss-vfs-3.2.12.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/lept4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/pdfbox-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/pdfbox-tools-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/tess4j-3.4.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/COM008/Desktop/Lib/ocrLib/xmlgraphics-commons-1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,20 @@
+.pane {
+    -fx-background-color: white;
+}
+
+.edge{
+   -fx-padding: 5 5 5 5;   
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #e2e2e2;
+}
+
+.button{
+   -fx-padding: 5 10 5 10;   
+    -fx-border-color: #e2e2e2;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+.list-cell 
+{
+  -fx-font: 12pt "Consolas";
+}

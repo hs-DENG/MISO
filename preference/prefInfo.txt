@@ -1,0 +1,9 @@
+dic:Daum
+enc:Wikipedia
+img:Naver
+trs:Naver
+map:Google
+video:Youtube
+ocr:113
+hot:16
+ocrLanguage:English

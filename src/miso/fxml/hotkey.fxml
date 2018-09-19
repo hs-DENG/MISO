@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.ToggleGroup?>
+
+<BorderPane fx:id="hotBorder" prefHeight="340.0"
+	prefWidth="460.0" xmlns="http://javafx.com/javafx/10.0.1"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<top>
+		<AnchorPane prefHeight="46.0" prefWidth="439.0"
+			BorderPane.alignment="CENTER" />
+	</top>
+	<center>
+		<AnchorPane prefHeight="251.0" prefWidth="500.0"
+			BorderPane.alignment="CENTER">
+			<children>
+				<JFXButton layoutX="360.0" layoutY="291.0" text="Apply">
+					<font>
+						<Font name="Consolas" size="15.0" />
+					</font>
+				</JFXButton>
+				<JFXButton layoutX="208.0" layoutY="291.0"
+					text="Restore Defaults">
+					<font>
+						<Font name="Consolas" size="15.0" />
+					</font>
+				</JFXButton>
+				<Pane fx:id="hotkeypane" layoutX="42.0" layoutY="14.0"
+					prefHeight="262.0" prefWidth="175.0"
+					style="-fx-border-color: BLACK;">
+					<children>
+						<JFXRadioButton layoutX="35.0" layoutY="20.0"
+							text="Mouse Wheel" selected="true">
+							<toggleGroup>
+								<ToggleGroup fx:id="HotKeyGroup" />
+							</toggleGroup>
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="56.0"
+							text="Ctrl" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="92.0"
+							text="Shift" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="128.0"
+							text="Alt" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="164.0"
+							text="F1" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="200.0"
+							text="F2" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="236.0"
+							text="F3" toggleGroup="$HotKeyGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+					</children>
+				</Pane>
+				<Pane fx:id="ocrpane" layoutX="247.0" layoutY="14.0"
+					prefHeight="262.0" prefWidth="175.0"
+					style="-fx-border-color: BLACK;">
+					<children>
+						<JFXRadioButton layoutX="35.0" layoutY="56.0"
+							text="Ctrl" toggleGroup="$OCRGroup">
+							<toggleGroup>
+								<ToggleGroup fx:id="OCRGroup" />
+							</toggleGroup>
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="92.0"
+							text="Shift" selected="true" toggleGroup="$OCRGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="128.0"
+							text="Alt" toggleGroup="$OCRGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="164.0"
+							text="F1" toggleGroup="$OCRGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="200.0"
+							text="F2" toggleGroup="$OCRGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+						<JFXRadioButton layoutX="35.0" layoutY="236.0"
+							text="F3" toggleGroup="$OCRGroup">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</JFXRadioButton>
+					</children>
+				</Pane>
+			</children>
+			<Label layoutX="91.0" layoutY="5.0"
+							style="-fx-background-color: WHITE;" text="Hot Key">
+							<font>
+								<Font name="Consolas" size="14.0" />
+							</font>
+						</Label>
+			<Label layoutX="306.0" layoutY="5.0"
+					style="-fx-background-color: WHITE;" text="OCR">
+					<font>
+						<Font name="Consolas" size="14.0" />
+					</font>
+				</Label>
+		</AnchorPane>
+	</center>
+</BorderPane>

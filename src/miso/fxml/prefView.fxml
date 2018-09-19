@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import miso.component.pref.ApplyandCloseButton?>
+<?import miso.component.pref.CancelButton?>
+<?import miso.component.pref.RestoreDefaultsButton?>
+<?import miso.component.pref.PrefListView?>
+
+<BorderPane fx:id="pane" prefHeight="440.0" prefWidth="600.0"
+   stylesheets="@preferenceStyle.css" styleClass="pane"
+   xmlns="http://javafx.com/javafx/10.0.1"
+   xmlns:fx="http://javafx.com/fxml/1"
+   fx:controller="miso.controllers.PrefController">
+   <bottom>
+      <AnchorPane prefHeight="40.0" prefWidth="600.0"
+         BorderPane.alignment="CENTER" styleClass="edge">
+         <children>
+            <ApplyandCloseButton layoutX="361.0"
+               layoutY="10.0" text="Apply and Close">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </ApplyandCloseButton>
+            <CancelButton layoutX="513.0" layoutY="10.0"
+               text="Cancel">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </CancelButton>
+            <RestoreDefaultsButton layoutX="200.0"
+               layoutY="10.0" text="Restore Defaults">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </RestoreDefaultsButton>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+      <AnchorPane prefHeight="405.0" prefWidth="140.0" BorderPane.alignment="CENTER" >
+         <children>
+            <PrefListView fx:id="listView" prefHeight="405.0" prefWidth="140.0"/>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <BorderPane prefHeight="340.0" prefWidth="460.0">
+
+      </BorderPane>
+   </right>
+</BorderPane>
